@@ -15,9 +15,10 @@
 #include <map>
 #include <vector>
 
-#include "stb_image.h"
 #include "shader_m.h"
 #include "mesh.h"
+#include "stb_image.h"
+
 
 using namespace std;
 

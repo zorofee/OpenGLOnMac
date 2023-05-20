@@ -1,1 +1,1 @@
-clang -arch arm64 -o build/main main.cpp -L/opt/homebrew/opt/glfw/lib -L/opt/homebrew/opt/assimp/lib -I/opt/homebrew/opt/glfw/include -I/opt/homebrew/opt/glm/include -I/opt/homebrew/opt/assimp/include -lglfw -lassimp -lstdc++ -framework OpenGL
+clang -arch arm64 -o build/main -g main.cpp -L/opt/homebrew/opt/glfw/lib -L/opt/homebrew/opt/assimp/lib -I/opt/homebrew/opt/glfw/include -I/opt/homebrew/opt/glm/include -I/opt/homebrew/opt/assimp/include -lglfw -lassimp -lstdc++ -framework OpenGL -std=c++14
