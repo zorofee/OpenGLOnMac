@@ -13,6 +13,10 @@
 
 #include "opengl/pbr.h"
 
+//#include "opengl/ibl_specular_textured.h"
+
+//#include "opengl/weighted_blended.h"
+
 int main(){
     //std::cout<<"hello!\n";
 
