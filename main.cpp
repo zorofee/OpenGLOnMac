@@ -11,11 +11,15 @@
 
 //#include "opengl/advanced_lighting.h"
 
-#include "opengl/pbr.h"
+//#include "opengl/pbr.h"
 
 //#include "opengl/ibl_specular_textured.h"
 
 //#include "opengl/weighted_blended.h"
+
+//#include "opengl/multi_lights.h"
+
+#include "opengl/blending_sorted.h"
 
 int main(){
     //std::cout<<"hello!\n";
